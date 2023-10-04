@@ -1,11 +1,11 @@
 <?php
 class Product {
     // Properties
-    private $id;
-    private $name;
-    private $price;
+    private int $id;
+    private string $name;
+    private float $price;
 
-    public function __construct($id, $name, $price) {
+    public function __construct(int $id, string $name, float $price) {
         // Initialize properties
         $this->id = $id;
         $this->name = $name;
